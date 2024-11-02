@@ -1,13 +1,13 @@
 # MARIO CS50
 
-Esse é um projeto que foi aprendido no curso de CS50 do grupo EAD Estudar, nesse projeto foi passado em aula pra fazer a parede do Mário, utilizando os conceitos que aprendemos em aula. Eles tem uma biblioteca que chama CS50, e então eu fiz uma recriação dessa biblioteca, utilizando algumas bibliotecas como limits que captura um limite da variável int. <br></br>
+Esse é um projeto que foi aprendido no curso de CS50 do grupo EAD Estudar, nesse projeto foi passado em aula pra fazer a parede do Mário, utilizando os conceitos que aprendemos em aula. Eles tem uma biblioteca que chama CS50, e então eu fiz uma recriação dessa biblioteca, utilizando algumas bibliotecas como limits que captura um limite da variável int.
 
-int: Valores entre -2147483648 até 2147483648, armazenando 32 bits de Memoria, ou 4 bytes.<br></br>
+int: Valores entre -2147483648 até 2147483648, armazenando 32 bits de Memoria, ou 4 bytes.
 
-Com isso eu recriei a função get_int() deles, utilizando um delimitador de até 20 carateres. Caso a variável não seja do tipo int, ele manda na tela que não é do tipo inteiro.
+Com isso eu recriei a função get_int() deles, utilizando um delimitador de até 20 carateres. Caso a variável não seja do tipo int, ele manda na tela que não é do tipo inteiro.<br></br>
 
 
-##  COMO INSTALAR O GCC <br></br>
+##  COMO INSTALAR O GCC
 
 ### Instalação do gcc
 
