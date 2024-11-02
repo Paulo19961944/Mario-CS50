@@ -10,9 +10,9 @@ Com isso eu recriei a função get_int() deles, utilizando um delimitador de at�
 
 A primeira coisa na minha conversão é uma lista que armazena o buffer, podendo ser até 20 caracteres, incluindo o caractere nulo. Uma váriável long tem 19 caracteres, então se ultrapassar o numero é maior que long. 
 
-O fgets() recebe tres parâmetros, o primeiro é pra ler e tudo dentro do buffer, o segundo captura o tamanho do buffer e o terceiro é o que ele deve adicionar, no meu caso é a entrada do teclado. Criei um ponteiro para determinar onde termina de converter. 
+O ```fgets()``` recebe tres parâmetros, o primeiro é pra ler e tudo dentro do buffer, o segundo captura o tamanho do buffer e o terceiro é o que ele deve adicionar, no meu caso é a entrada do teclado. Criei um ponteiro para determinar onde termina de converter. 
 
-O strtol() converte String em variaveis do tipo long int, e o primeiro parâmetro é o que eu quero converter, que é o buffer. O segundo é o que não é convertido, que irá apontar para o ponteiro e irá armazenar esse valor e o 10 são valores decimais. Nesse caso, se tiver caracteres não válidos, ele irá apontar para o ponteiro e o buffer não vai estar vazio, e indicará que não é o tipo correto. 
+O ```strtol()``` converte String em variaveis do tipo long int, e o primeiro parâmetro é o que eu quero converter, que é o buffer. O segundo é o que não é convertido, que irá apontar para o ponteiro e irá armazenar esse valor e o 10 são valores decimais. Nesse caso, se tiver caracteres não válidos, ele irá apontar para o ponteiro e o buffer não vai estar vazio, e indicará que não é o tipo correto. 
 
 Caso o valor seja maior ou menor do que um int pode armazenar, ele vai pedir que converta em um int. No final, ele converte o valor para int, parando o loop infinito também.<br></br>
 
