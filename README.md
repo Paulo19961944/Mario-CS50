@@ -20,7 +20,7 @@ Se você descobrir que o gcc não está instalado, você pode instalá-lo atrav�
 2. Durante a instalação, certifique-se de selecionar os componentes necessários (como o gcc).
 3. Adicione o diretório bin do MinGW ao seu PATH:
 Vá em Painel de Controle → Sistema → Configurações avançadas do sistema.
-Clique em Variáveis de ambiente.<br></br>
+Clique em Variáveis de ambiente.
 4.Em "Variáveis do sistema", encontre a variável Path, selecione e clique em Editar.
 5.Adicione o caminho do diretório bin (ex: C:\MinGW\bin).<br></br>
 
