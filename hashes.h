@@ -7,7 +7,13 @@ int get_int(const char *mensagem);
 // Função para criar e imprimir hashes
 void hashesFactory(int num);
 
-// Função para criar e imprimir triangulo
+// Função para imprimir triangulos
 void triangleFactory(int num);
+
+// Função para imprimir triangulo com espaço
+void triangleSpacesFactory(int num);
+
+// Função para pular linha
+void skipNextLine();
 
 #endif // HASHES_H
