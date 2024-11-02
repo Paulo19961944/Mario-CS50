@@ -7,7 +7,7 @@ int: Valores entre -2147483648 até 2147483648, armazenando 32 bits de Memoria, 
 Com isso eu recriei a função get_int() deles, utilizando um delimitador de até 20 carateres. Caso a variável não seja do tipo int, ele manda na tela que não é do tipo inteiro.
 
 
-##  COMO INSTALAR O GCC
+##  COMO INSTALAR O GCC <br></br>
 
 ### Instalação do gcc
 
@@ -16,22 +16,17 @@ Se você descobrir que o gcc não está instalado, você pode instalá-lo atrav�
 
 ### MinGW (Minimalist GNU for Windows):
 
-Baixe o instalador do MinGW em MinGW-w64 ou procure pelo instalador do MinGW.<br></br>
-
-Durante a instalação, certifique-se de selecionar os componentes necessários (como o gcc).<br></br>
-
-Adicione o diretório bin do MinGW ao seu PATH:
-
+1. Baixe o instalador do MinGW em MinGW-w64 ou procure pelo instalador do MinGW.
+2. Durante a instalação, certifique-se de selecionar os componentes necessários (como o gcc).
+3. Adicione o diretório bin do MinGW ao seu PATH:
 Vá em Painel de Controle → Sistema → Configurações avançadas do sistema.
 Clique em Variáveis de ambiente.<br></br>
-
-Em "Variáveis do sistema", encontre a variável Path, selecione e clique em Editar.<br></br>
-
-Adicione o caminho do diretório bin (ex: C:\MinGW\bin).<br></br>
+4.Em "Variáveis do sistema", encontre a variável Path, selecione e clique em Editar.
+5.Adicione o caminho do diretório bin (ex: C:\MinGW\bin).<br></br>
 
 
 ### WSL (Windows Subsystem for Linux)
-Se você preferir usar um ambiente Linux, pode instalar o WSL e, em seguida, instalar o gcc usando um gerenciador de pacotes, como apt:<br></br>
+Se você preferir usar um ambiente Linux, pode instalar o WSL e, em seguida, instalar o gcc usando um gerenciador de pacotes, como apt:
 
 ```bash
 sudo apt update
