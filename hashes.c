@@ -25,6 +25,26 @@ int get_int(const char *mensagem) {
     }
 }
 
+float get_float(const char *mensagem) {
+    char buffer[20];
+    float numero;
+
+    while (1) {
+        printf("%s", mensagem);
+        fgets(buffer, sizeof(buffer), stdin);
+        char *endptr;
+        numero = strtof(buffer, &endptr);
+
+        if (endptr == buffer || *endptr != '\n') {
+            printf("Tipo incorreto! Você deve digitar um número decimal.\n");
+        } else if (numero > FLT_MAX || numero < -FLT_MAX) {
+            printf("Você ultrapassou o limite de caracteres do tipo float.\n");
+        } else {
+            return numero;
+        }
+    }
+}
+
 // FUNÇÃO PARA PULAR LINHA
 void skipNextLine() {
     printf("\n");
