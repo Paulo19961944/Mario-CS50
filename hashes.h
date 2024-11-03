@@ -4,6 +4,9 @@
 // Função para capturar um inteiro
 int get_int(const char *mensagem);
 
+// Função para capturar um float
+float get_float(const char *mensagem);
+
 // Função para criar e imprimir hashes
 void hashesFactory(int num);
 
